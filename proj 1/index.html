@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>My first Page </title>
+<link rel="icon" type="image/x-icon" href="img/1047711.png">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+</head>
+<!-- 
+style modifica o estilo de algo do texto
+função color do style 
+1 color: {a cor desejada}; muda a cor da letra
+2 background-color: {a cor desejada}; muda a cor de fundo do testo ou da pagina , depende do div
+3 border: {tamanho} solid [para ser solido as bordas] {a cor desejada};
+
+é possivel colocar diversos comandos juntos dentro de um style, porem so é permitido um comando style
+os de mais devem ser colocados dentro do "aspas" do style seguido com o final do codigo usando ;
+
+as cores podem ser delcaradas por nome ou pelo codigo RGB ,RGBA ou por codigo HEX sempre usando , para diferenciar
+(tembém tem os HSL e HSLA)
+
+--> 
+<body>
+  <video autoplay loop muted id="myVideo">
+    <source src="img/mantissa.webm" type="video/webm">
+</video><section>
+  <div class="contentUP">
+    <span><h1 style="position: relative;">my first page its that</h1></span>
+    <pre style="position: relative;" class="row, column">
+  This is my first page.
+  maybe you can enjoy it but its to single.
+  if you want see more , check out at the arrow at the right.
+  if you dont want just press on youtube and have a fun :D.
+    </pre>
+</div>
+</section>
+  <aside >
+  <div style="right: -90vw; background: transparent;"class="content"><a href="https://www.youtube.com/?gl=BR&hl=pt">
+    <img src="img/youtube.png" alt="imagem não carregou." width="9%" height="9%"> </a>
+    </div> 
+    <div style="right: -90vw; bottom: 10vw;; background: transparent;"class="content"><a href="index2.html">
+    <img src="img/Arrow_bottom.png" alt="imagem não carregou." width="9%" height="9%"> </a>
+</div>
+</aside>
+</body>
+</html>
