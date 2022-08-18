@@ -25,7 +25,6 @@ min-width: 100%;
 min-height: 100%;
 }
 
-/* Add some content at the bottom of the video/page */
 .content {
 position: fixed;
 bottom: 0;
@@ -35,8 +34,6 @@ width: 100%;
 padding: 20px;
 }
 
-
-/* Style the button used to pause/play the video */
 #myBtn {
 width: 200px;
 font-size: 18px;
@@ -176,4 +173,13 @@ aside {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+.rowB:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.column2{
+  float: left;
+  width: 50%;
 }
