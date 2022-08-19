@@ -51,6 +51,7 @@ color: black;
 @media screen and ( max-width: 900px) {
 .column{
     font-size: 3.6vw;
+    
 }
 }
 @media screen and (max-width: 450px) {
@@ -60,9 +61,17 @@ color: black;
 }
 @media screen and (min-width: 1450px) {
     .column{
-        font-size: 1vw;
+        font-size: 2vw;
     }
 }
+@media screen and ( max-width: 900px) {
+  .logoSize{
+    width: 170px;
+    padding-left: 20%;
+    
+  }
+  }
+
 .side {
     flex: 30vw;
     background-color: aqua;
@@ -127,19 +136,18 @@ aside {
   color: #ddd;
 }
 .sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
 }
 
-/* The navigation menu links */
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -182,4 +190,13 @@ aside {
 .column2{
   float: left;
   width: 50%;
+}
+.TabBar{
+  height: 0%;
+  transform:rotate(0deg);
+}
+
+.TabBar2{
+  height: 0%;
+  transform:rotate(0deg);
 }

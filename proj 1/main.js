@@ -124,4 +124,22 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
+} 
+
+function openTab(){
+  document.getElementById("JavaColumn").style.height = "250px";
+  document.getElementById("Xbutton").style.transform = "rotate(45deg)";
+
+}
+function closeTab(){
+  document.getElementById("JavaColumn").style.height = "0px";
+  document.getElementById("Xbutton").style.transform = "rotate(0deg)";
+}function openTab2(){
+  document.getElementById("JavaColumn2").style.height = "250px";
+  document.getElementById("Xbutton2").style.transform = "rotate(45deg)";
+
+}
+function closeTab2(){
+  document.getElementById("JavaColumn2").style.height = "0px";
+  document.getElementById("Xbutton2").style.transform = "rotate(0deg)";
 }
