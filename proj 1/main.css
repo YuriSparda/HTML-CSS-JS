@@ -192,11 +192,11 @@ aside {
   width: 50%;
 }
 .TabBar{
-  height: 0%;
-  transform:rotate(0deg);
+  height: 0%; 
+  transition: 0.5s;
 }
 
 .TabBar2{
   height: 0%;
-  transform:rotate(0deg);
+  transition: 0.5s;
 }

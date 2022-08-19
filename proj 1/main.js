@@ -128,18 +128,22 @@ function closeNav() {
 
 function openTab(){
   document.getElementById("JavaColumn").style.height = "250px";
-  document.getElementById("Xbutton").style.transform = "rotate(45deg)";
+  document.getElementById("XbuttonA").style.opacity = "0";
+  document.getElementById("XbuttonB").style.opacity = "100";
 
 }
 function closeTab(){
   document.getElementById("JavaColumn").style.height = "0px";
-  document.getElementById("Xbutton").style.transform = "rotate(0deg)";
+  document.getElementById("XbuttonA").style.opacity = "100";
+  document.getElementById("XbuttonB").style.opacity = "0";
 }function openTab2(){
-  document.getElementById("JavaColumn2").style.height = "250px";
-  document.getElementById("Xbutton2").style.transform = "rotate(45deg)";
+  document.getElementById("JavaColumn2").style.height = "250px"
+  document.getElementById("XbuttonA2").style.opacity = "0";
+  document.getElementById("XbuttonB2").style.opacity = "100";
 
 }
 function closeTab2(){
   document.getElementById("JavaColumn2").style.height = "0px";
-  document.getElementById("Xbutton2").style.transform = "rotate(0deg)";
+  document.getElementById("XbuttonA2").style.opacity = "100";
+  document.getElementById("XbuttonB2").style.opacity = "0";
 }
