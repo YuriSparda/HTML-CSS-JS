@@ -10,41 +10,17 @@
 <link rel="icon" type="image/x-icon" href="img/1047711.png">
 </head>
 <body style="text-align: center; background-color: #000;">
-  
+  <!-- metodo de Cor Randomica -->
   <script>
-
+     
       function randomRGB() {
         var x = Math.floor((Math.random() * 254) + 1);
         return x;}
-        var RColor;
-        var BColor;
-        var GColor;
-        setInterval(function rColor() { ;
-          RColor++;
-          if (RColor>240) {
-            RColor-=230;
-          }
-          return RColor; 
-    }, 300);
-    setInterval(function gColor() { ;
-          GColor++;
-          if (GColor>240) {
-            GColor-=230;  
-          }
-          return GColor;
-    }, 200);
-    setInterval(function bColor() { ;
-          BColor++;
-          if (BColor>240) {
-            BColor-=230;
-            
-          }
-          return BColor;
-    }, 100);
       setInterval(function(){
           document.body.style.color = 'rgb(' + randomRGB() + ',' + randomRGB() + ',' + randomRGB() + ')';
                 }, 50);
     </script>
+    <!-- #endregion -->
   <h1 style="color: red;text-size-adjust: 2.5vw;" ><a href="index3.html"> Next Page </a></h1>
   <h2 style="text-size-adjust: 2.5vw; color: aliceblue;"> just a juke page , press Next.</h2>
   <button style="size :2.5vw;" onclick="anim1();">toggle animation</button></p>

@@ -1,3 +1,4 @@
+//this donut.c i just had taked on internet 
 (function() {
     var _onload = function() {
       var pretag = document.getElementById('d');
@@ -88,7 +89,7 @@
           }
         }
       }
-    
+    //Donut Stop ends
     
       window.anim2 = function() {
         if(tmr2 === undefined) {
