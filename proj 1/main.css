@@ -190,6 +190,7 @@ aside {
 .column2{
   float: left;
   width: 50%;
+  transition: 0.5s;
 }
 .TabBar{
   height: 0%; 

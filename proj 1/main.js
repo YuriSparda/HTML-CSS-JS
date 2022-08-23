@@ -128,22 +128,22 @@ function closeNav() {
 
 function openTab(){
   document.getElementById("JavaColumn").style.height = "250px";
-  document.getElementById("XbuttonA").style.opacity = "0";
-  document.getElementById("XbuttonB").style.opacity = "100";
+  document.getElementById("XbuttonA").style.display = "none";
+  document.getElementById("XbuttonB").style.display = "block";
 
 }
 function closeTab(){
   document.getElementById("JavaColumn").style.height = "0px";
-  document.getElementById("XbuttonA").style.opacity = "100";
-  document.getElementById("XbuttonB").style.opacity = "0";
+  document.getElementById("XbuttonA").style.display = "block";
+  document.getElementById("XbuttonB").style.display = "none";
 }function openTab2(){
   document.getElementById("JavaColumn2").style.height = "250px"
-  document.getElementById("XbuttonA2").style.opacity = "0";
-  document.getElementById("XbuttonB2").style.opacity = "100";
+  document.getElementById("XbuttonA2").style.display = "none";
+  document.getElementById("XbuttonB2").style.display = "block";
 
 }
 function closeTab2(){
   document.getElementById("JavaColumn2").style.height = "0px";
-  document.getElementById("XbuttonA2").style.opacity = "100";
-  document.getElementById("XbuttonB2").style.opacity = "0";
+  document.getElementById("XbuttonA2").style.display = "block";
+  document.getElementById("XbuttonB2").style.display = "none";
 }
