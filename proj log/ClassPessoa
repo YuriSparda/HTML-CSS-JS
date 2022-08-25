@@ -1,0 +1,34 @@
+class person{constructor(name,age,password){
+this.name=name;
+this.age=age;
+this.password=password;
+
+}
+
+setName(){ 
+
+this.name=document.getElementById("nameId");
+}
+getName() {
+
+return this.name;
+}
+setAge(){
+    this.age=document.getElementById("ageId");
+}
+getAge(){
+    return this.age;
+}
+setPassword(){
+ this.password=document.getElementById("passID");   
+}
+getPassword(){
+    return this.password;
+}
+getFullInfo(){
+return "nome:"+this.name+" /// Senha : "+this.password+"  ///Idade : "+this.age;
+}
+function Print () {
+    document.getElementById("printHere").innerHTML(getFullInfo);
+}
+}
