@@ -51,7 +51,11 @@ color: black;
 @media screen and ( max-width: 900px) {
 .column{
     font-size: 3.6vw;
-    
+}  
+}@media screen and ( max-width: 900px) {
+.logoSize{
+  width: 170px;
+  padding-left: 20%;
 }
 }
 @media screen and (max-width: 450px) {
@@ -64,14 +68,6 @@ color: black;
         font-size: 2vw;
     }
 }
-@media screen and ( max-width: 900px) {
-  .logoSize{
-    width: 170px;
-    padding-left: 20%;
-    
-  }
-  }
-
 .side {
     flex: 30vw;
     background-color: aqua;
@@ -188,10 +184,19 @@ aside {
   clear: both;
 }
 .column2{
+  border-style: solid;
+  border-color: #000;
   float: left;
-  width: 50%;
+  width: 47vw;
   transition: 0.5s;
+  margin: 0.5vw;
 }
+
+  @media screen and (max-width: 850px) {
+    .column2{
+      width: 95vw;
+    }}
+    
 .TabBar{
   height: 0%; 
   transition: 0.5s;
@@ -200,4 +205,98 @@ aside {
 .TabBar2{
   height: 0%;
   transition: 0.5s;
+}
+#Sidenav2 a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -80px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+#Sidenav2 a:hover {
+  left: 0;
+}
+/* slide pics */
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  display: grid;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }

@@ -9,7 +9,7 @@
 </style>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Page Title</title>
+  <title>Home Page</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 <link rel="icon" type="image/x-icon" href="img/1047711.png">
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
@@ -39,38 +39,71 @@ border-style: ridge;
 <div id="main" style="position: fixed;">
 </div>
 <!-- this its the button for the Nav -->
-<span onclick="openNav()" style="position:relative;left: 1%; top: 3%; "><img src="img/home_app_logo_FILL0_wght400_GRAD0_opsz48.png" alt=""></span>
+<div style="position: fixed;top: 3vw;background-color: rgb(181, 176, 230); border-radius: 5vw;border-style: ridge;border-color: darkblue;">
+<span onclick="openNav()"><img src="img/home_app_logo_FILL0_wght400_GRAD0_opsz48.png" alt=""></span>
+</div>
 <!-- button done here -->
-<a href="index3.html"><img class="logoSize" style="display: grid;padding-left: 40% ;" src="img/logo.png" alt="logo yuri's Page"></a>  
+<a href="index3.html"><img class="logoSize" style="display: grid;margin-left: auto;margin-right: auto;" src="img/logo.png" alt="logo yuri's Page"></a>  
 
-<p style="text-align: center;"> This web site its just for traning , everything here can be re-used.</p>
+<p style="text-align: center;" class="column"> This web site its just for traning , everything here can be re-used.</p>
   </header>
 
 <div>
   <br>
 <div style="text-align: center;" class="rowB">
   <div class="column2" style="transition: 0.5s;border-radius: 5vw;background-color: rgba(208, 231, 252, 0.288);" >
-  <span style="" onclick="openTab()"><img id="XbuttonA" style="display: block;" src="img/java-runtime.png" alt="" width="130vw" height="130vw"></span>
-  <span onclick="closeTab()"><img id="XbuttonB" style="display:none ;" src="img/java-runtime.png" alt="" width="130vw" height="130vw"></span>
-  <div id="JavaColumn" style="height: 0%;transition: 0.5s;">  </div>
+  <span onclick="openTab()"><img id="XbuttonA" style="display: block;margin-left: auto;margin-right: auto;" src="img/java-runtime.png" alt="" width="130vw" height="110vw"></span>
+  <span onclick="closeTab()"><img id="XbuttonB" style="display:none ;margin-left: auto;margin-right: auto;" src="img/java-runtime.png" alt="" width="130vw" height="110vw"></span>
+  <div id="JavaColumn" style="height: 0%;transition: 0.5s; opacity: 0%;"> conteudo de java foi muito enriquecedor de conhecimento. <br> o Professor Henrique Delegrego 
+    ensinou muito e muito bem diversos conteudos de java e principalmente orientação a objeto <br><br>aqui deixo um grande agradecimento a tudo que ele me ensinou n e 
+  tudo que ele passou para a turma por toda paciencia que ele teve de explicar e todo esforço ate na idealização de desafios para a turma <br>alem de outros conteudos que nos foi ensinado como Git e logica de programação
+</div>
   </div>
   <div class="column2" style="transition: 0.5s;border-radius: 5vw;background-color: rgba(250, 235, 215, 0.356);">
-  <span onclick="openTab2()" ><img id="XbuttonA2" style="display: block;" src="img/html5-logo.png" alt="" width="130vw" height="130vw"> </span>
-  <span onclick="closeTab2()"><img id="XbuttonB2" style="display:none;" src="img/html5-logo.png" alt="" width="130vw" height="130vw"></span>
-  <div id="JavaColumn2" style="height: 0%;transition: 0.5s;">  </div>
+  <span onclick="openTab2()" ><img id="XbuttonA2" style="display: block;margin-left: auto;margin-right: auto;" src="img/html-css-js.png" alt="" width="130vw" height="110vw"> </span>
+  <span onclick="closeTab2()"><img id="XbuttonB2" style="display:none;margin-left: auto;margin-right: auto;" src="img/html-css-js.png" alt="" width="130vw" height="110vw"></span>
+  <div id="JavaColumn2" style="height: 0%;transition: 0.5s; opacity: 0%;"> esta aula esta em andamento   </div>
   </div>
 </div>
 
 </section>
-<br>
 <article class="allThings">
-<pre>article
+  <div class="slideshow-container">
 
-</pre>
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="imgClass/pic1.jfif" style="width:100%">
+      <div class="text" style="background-color: rgba(0, 0, 0, 0.432);">aula de Java no Eclipse <br> Com o professor Henrique Delegrego</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="imgClass/pic2.jpeg" style="width:100%">
+      <div class="text" style="background-color: rgba(0, 0, 0, 0.432);">Aula de empreendedorismo <br>com o professor Eduardo Deschamps</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="imgClass/pic3.jfif" style="width:100%">
+      <div class="text" style="background-color: rgba(0, 0, 0, 0.432);">aula de desenvolvimento humano <br>com a professora Astolfi Ana</div>
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+<br>
+<br>
 </article>
 </div>
 <br>
-<footer class="allThings" style="opacity: 80%; display: grid;">
+<footer class="allThings" style="opacity: 70%; display: grid;">
   <pre>Mail:<a href="https://mailto.yuri.sparda@hotmail.com">yuri.sparda@hotmail.com .</a>
   Estudante do Entra 21 em Blumenau(SC) Brasil .</pre>
   </footer>
