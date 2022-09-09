@@ -1,45 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Test Things</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+  <!-- From google Fonts (i dont like it) -->
+  <style>
     
-    <link rel="icon" type="image/x-icon" href="img/1047711.png"></head>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+    
+</style>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Home Page</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel="icon" type="image/x-icon" href="img/1047711.png">
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+</head>
 <body style="background-color: powderblue; 
 font-family: 'Fira Sans Condensed', sans-serif;
 background-color: #1F3B4D;">
+<!-- This Code its a simple , you can use ir with CSS and JavaScript , i hope you will enjoy it. -->
 <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="index3.html">home</a>
-    <a href="https://www.linkedin.com/in/yuri-oliveira-di-golfeto">About</a>
-    <a href="index.html">First Page</a>
-    <a href="index2.html">Second page</a>
-    <a href="index4.html">third page</a>
-    <a href="#">fourth page</a>
-    <a href="#">fifth page</a>
-    <a href="https://github.com/YuriSparda">GitHub</a>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index3.html">Home</a>
+  <a href="https://www.linkedin.com/in/yuri-oliveira-di-golfeto">About</a>
+  <a href="index.html">First Page</a>
+  <a href="index2.html">Second page</a>
+  <a href="index4.html">third page</a>
+  <a href="#">fourth page</a>
+  <a href="#">fifth page</a>
+  <a href="https://github.com/YuriSparda">GitHub</a>
+</div>
+<!-- The code for left navBar end here.-->
+<header style="
+background-color: rgba(255, 255, 255, 1);
+border-radius: 2.5vw;
+border-style: ridge;
+">
+<div id="main" style="position: fixed;">
+</div>
+<!-- this its the button for the Nav -->
+<div style="position: fixed;top: 3vw;background-color: rgb(181, 176, 230); border-radius: 5vw;border-style: ridge;border-color: darkblue;">
+<span onclick="openNav()"><img src="img/home_app_logo_FILL0_wght400_GRAD0_opsz48.png" alt=""></span>
+</div>
+<!-- button done here -->
+<a href="index3.html"><img class="logoSize" style="display: grid;margin-left: auto;margin-right: auto;" src="img/logo.png" alt="logo yuri's Page"></a>  
+
+<p style="text-align: center;" class="column"> This web site its just for traning , everything here can be re-used.</p>
+  </header>
+
+<div>
+  <br>
+<div style="text-align: center;" class="rowB">
+  <div class="column2" style="transition: 0.5s;border-radius: 5vw;background-color: rgba(208, 231, 252, 0.288);" >
+  <span onclick="openTab()"><img id="XbuttonA" style="display: block;margin-left: auto;margin-right: auto;" src="img/java-runtime.png" alt="" width="130vw" height="110vw"></span>
+  <span onclick="closeTab()"><img id="XbuttonB" style="display:none ;margin-left: auto;margin-right: auto;" src="img/java-runtime.png" alt="" width="130vw" height="110vw"></span>
+  <div id="JavaColumn" style="height: 0%;transition: 0.5s; opacity: 0%;"> empreendedorismo
+</div>
   </div>
-  
-  <div id="main">
-    
+  <div class="column2" style="transition: 0.5s;border-radius: 5vw;background-color: rgba(250, 235, 215, 0.356);">
+  <span onclick="openTab2()" ><img id="XbuttonA2" style="display: block;margin-left: auto;margin-right: auto;" src="img/html-css-js.png" alt="" width="130vw" height="110vw"> </span>
+  <span onclick="closeTab2()"><img id="XbuttonB2" style="display:none;margin-left: auto;margin-right: auto;" src="img/html-css-js.png" alt="" width="130vw" height="110vw"></span>
+  <div id="JavaColumn2" style="height: 0%;transition: 0.5s; opacity: 0%;"> desenvolvimento humano  </div>
   </div>
-  <!-- The code for left navBar end here.-->
-  <header style="
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 2.5vw;
-  border-style: ridge;
-  ">
-  <!-- this its the button for the Nav -->
-  <span onclick="openNav()" style="position:relative;left: 1%; top: 3%; "><img src="img/home_app_logo_FILL0_wght400_GRAD0_opsz48.png" alt=""></span>
-  <!-- button done here -->
-  <a href="index3.html"><img style="left: 40vw;position:relative;" src="img/logo.png" alt="logo yuri's Page"></a>  
+</div>
+</section>
+<article class="allThings">
   
-  <p style="text-align: center;"> This web site its just for traning , everything here can be re-used.</p>
-    </header>
-  
+</article>
+</div>
+<br>
+<footer class="allThings" style="opacity: 70%; display: grid;">
+  <pre>Mail:<a href="https://mailto.yuri.sparda@hotmail.com">yuri.sparda@hotmail.com .</a>
+  Estudante do Entra 21 em Blumenau(SC) Brasil .</pre>
+  </footer>
 </body>
 </html>
